@@ -1,0 +1,8 @@
+title: Trion Team
+gems: [jekyll-gist, jekyll-paginate]
+paginate_path: "/news/:num/"
+paginate: 5
+
+collections:
+  projects:
+    output: true

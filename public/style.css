@@ -1,0 +1,151 @@
+body {
+  background-color: #111;
+  color: #eee;
+  font-family: 'Montserrat', sans-serif; 
+  margin: 0;
+  min-height: 100vh;
+
+  display: flex;
+}
+
+.content {
+  position: relative;
+  width: 600px;
+  margin-left: 20px;
+}
+
+.content a {
+  color: #ddd;
+}
+
+.content .heading {
+  width: 100%;
+  height: 164px;
+  position: relative;
+}
+
+.content .heading h2 {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  margin: 0;
+  
+  font-size: 2.5em;
+}
+
+.page-content {
+  margin: 0;
+  margin-top: 40px;
+}
+
+.page-content h3 {
+  margin: 0;
+}
+
+.page-content h3 a {
+  text-decoration: none;
+}
+
+.more-link {
+  text-align: right;
+  margin-bottom: 16px;
+}
+
+.sidebar {
+  width: 384px;
+  background-color: black;
+}
+
+.sidebar .logo {
+  text-align: right;
+  position: relative;
+  
+  height: 160px;
+  margin: 0;
+  margin-right: 20px;
+}
+
+.sidebar .logo .offset {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.sidebar .logo a {
+  color: #eee;
+  text-decoration: none;
+}
+.sidebar .logo a:visited {
+  color: #eee;
+}
+.sidebar .logo a:hover {
+  color: #eee;
+}
+
+.sidebar .logo h1 {
+  text-align: right;
+  text-transform: uppercase;
+  display: inline-block;
+  font-size: 3.3em;
+  margin: 0;
+  line-height: 1;
+}
+
+.sidebar .subtitle {
+  margin: 0 20px 19px;
+  font-size: 1.28em;
+  color: #aaa;
+  text-align: right;
+}
+
+.sidebar .links {
+  text-align: right;
+  margin-right: 20px;
+  line-height: 1.5;
+}
+
+.sidebar .logo img {
+  width: 91px;
+  display: inline-block;
+}
+
+.sidebar .links a {
+  color: #eee;
+  text-decoration: none;
+  display: block;
+}
+
+.sidebar .links a.active {
+  color: #eee;
+  text-decoration: none;
+  display: block;
+  font-weight: bold;
+}
+
+.sidebar .links a:hover {
+  color: #eee;
+  text-decoration: none;
+  display: block;
+  font-weight: bold;
+}
+
+.social {
+  text-align: right;
+  margin-top: 1em;
+  margin-right: 20px;
+}
+
+.social a {
+  text-decoration: none;
+}
+
+.social img {
+  height: 24px;
+  vertical-align: bottom;
+}
+
+.mail-link {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+}

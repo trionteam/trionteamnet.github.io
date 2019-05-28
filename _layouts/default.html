@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  {% include head.html %}
+
+  <body>
+    <div class="sidebar">
+      {% include sidebar.html %}
+    </div>
+    <div class="content">
+      <div class="heading">
+        <h2>{{ page.title }}</h2>
+      </div>
+
+      <div class="page-content">
+        {{ page.content }}
+      </div>
+    </div>
+  </body>
+</html>

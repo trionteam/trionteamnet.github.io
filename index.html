@@ -1,0 +1,22 @@
+---
+title: News
+layout: default
+---
+{% for post in paginator.posts %} 
+<h3> {{ post.title }}</h3>
+{{ post.content }}
+
+{% endfor %}
+
+{% if paginator.total_pages > 1 %}
+<!-- Pagination links -->
+<section>
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path }}">Previous</a>
+  {% endif %}
+  <span>Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path }}">Next</a>
+  {% endif %}
+</section>
+{% endif %}

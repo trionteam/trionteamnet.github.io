@@ -1,0 +1,29 @@
+<div class="logo">
+  <div class="offset">
+    <a href="{{ site.baseurl }}">
+    <img src="{{ "/public/trionlogo.png" | relative_url }}">
+    <h1>Trion<br>Team</h1>
+    </a>
+  </div>
+</div>
+<div class="subtitle">
+  <span>Amateur game developers</span></div>
+<div class="links">
+  <a class="{% if page.url == "/" %}active{% endif %}" href="{{ "/" | relative_url }}">News</a>
+  {% for node in site.pages %}
+    {% if node.layout == "page" %}
+    <a class="{% if page.url == node.url %}active{% endif %}" href="{{ node.url | relative_url }}">{{ node.title }}</a>
+    {% endif %}
+  {% endfor %}
+</div>
+<div class="social">
+  <a href="https://twitter.com/trion_team">
+    <img src="{{ "/public/twitter.png" | relative_url }}">
+  </a>
+  <a href="https://facebook.com/trionteam.net/">
+    <img src="{{ "/public/facebook-logo.png" | relative_url }}">
+  </a>
+  <a href="mailto:info@trionteam.net">
+    <span class="mail-link">@</span>
+  </a>
+</div>
