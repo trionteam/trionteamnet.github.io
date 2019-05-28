@@ -6,3 +6,5 @@ paginate: 5
 collections:
   projects:
     output: true
+
+theme: jekyll-theme-tactile
