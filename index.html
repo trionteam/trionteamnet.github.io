@@ -3,20 +3,22 @@ title: News
 layout: default
 ---
 {% for post in paginator.posts %} 
+<div class="news-item">
 <h3> {{ post.title }}</h3>
-{{ post.content }}
+<div class="news-date">{{ post.date | date: "%-d %B %Y" }}</div>
 
+{{ post.content }}
+</div>
 {% endfor %}
 
 {% if paginator.total_pages > 1 %}
 <!-- Pagination links -->
-<section>
+<div class="pagination-links">
   {% if paginator.previous_page %}
     <a href="{{ paginator.previous_page_path }}">Previous</a>
   {% endif %}
-  <span>Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
   {% if paginator.next_page %}
     <a href="{{ paginator.next_page_path }}">Next</a>
   {% endif %}
-</section>
+</div>
 {% endif %}

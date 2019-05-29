@@ -51,6 +51,25 @@ body {
   margin-bottom: 16px;
 }
 
+.news-item {
+  margin-bottom: 16pt;
+}
+
+.news-item p {
+  margin-top: 5pt;
+  margin-bottom: 5pt;
+}
+
+.news-date {
+  font-size: 10pt;
+}
+
+.pagination-links {
+  width: 100%;
+  font-size: 12pt;
+  text-align: right;
+}
+
 .sidebar {
   width: 384px;
   background-color: black;
@@ -86,14 +105,14 @@ body {
   text-align: right;
   text-transform: uppercase;
   display: inline-block;
-  font-size: 3.3em;
+  font-size: 52px;
   margin: 0;
   line-height: 1;
 }
 
 .sidebar .subtitle {
   margin: 0 20px 19px;
-  font-size: 1.28em;
+  font-size: 20.4px;
   color: #aaa;
   text-align: right;
 }
