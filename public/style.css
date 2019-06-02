@@ -47,8 +47,7 @@ body {
 }
 
 .more-link {
-  text-align: right;
-  margin-bottom: 16px;
+  margin-top: 8px;
 }
 
 .news-item {
@@ -68,6 +67,21 @@ body {
   width: 100%;
   font-size: 12pt;
   text-align: right;
+}
+
+.game-entry {
+  display: flex;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.game-entry img {
+  height: 90px;
+}
+
+.project-short {
+  margin: 0;
+  margin-right: 16px;
 }
 
 .sidebar {

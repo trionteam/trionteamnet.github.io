@@ -5,8 +5,15 @@ layout: page
 {% assign projects = site.projects | sort: 'sequence' %}
 {% for project in projects %}
 <h3><a href="{{ project.url }}">{{ project.name }}</a></h3>
+<div class="game-entry">
+<div class="game-short">
 <p class="project-short">{{ project.short }}</p>
 <div class="more-link">
   <a href="{{ project.url }}">More</a>
+</div>
+</div>
+{% if project.image %}
+<img src="{{ project.image | relative_url }}">
+{% endif %}
 </div>
 {% endfor %}
