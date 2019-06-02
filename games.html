@@ -9,7 +9,7 @@ layout: page
 <div class="game-short">
 <p class="project-short">{{ project.short }}</p>
 <div class="more-link">
-  <a href="{{ project.url }}">More</a>
+  <a href="{{ project.url | relative_url }}">More</a>
 </div>
 </div>
 {% if project.image %}
