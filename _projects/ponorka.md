@@ -6,7 +6,6 @@ short: Ponorka is an arcade game where you control a submarine-bomber
 layout: page
 image: /image/ponorka/ponorka-icon.jpg
 ---
-
 [Download from Itch.io](https://trionteam.itch.io/ponorka)
 
 ### About the game
@@ -23,14 +22,14 @@ immoral and inhumane. So we moved the game below the water surface and replaced
 the city with stacks of barrels full of toxic waste.
 
 <div class="images">
-  <a href="/image/ponorka/screen-1.jpg">
-    <img src="/image/ponorka/screen-1-small.png">
+  <a href="{{ "/image/ponorka/screen-1.jpg" | relative_url }}">
+    <img src="{{ "/image/ponorka/screen-1-small.png" | relative_url }}">
   </a>
-  <a href="/image/ponorka/screen-2.jpg">
-    <img src="/image/ponorka/screen-2-small.png">
+  <a href="{{ "/image/ponorka/screen-2.jpg" | relative_url }}">
+    <img src="{{ "/image/ponorka/screen-2-small.png" | relative_url }}">
   </a>
-  <a href="/image/ponorka/screen-3.jpg">
-    <img src="/image/ponorka/screen-3-small.png">
+  <a href="{{ "/image/ponorka/screen-3.jpg" | relative_url }}">
+    <img src="{{ "/image/ponorka/screen-3-small.png" | relative_url }}">
   </a>
 </div>
 
@@ -58,8 +57,9 @@ German game portal - the traffic they generated almost got us kicked out of our
 hosting.
 
 Overall, we estimate that the game was downloaded at least 10,000 times but the
-overall number of people who played the game could be even higher. We even got
-some fan e-mails from players!
+overall number of people who played the game could be even higher. We got some
+fan e-mails from players! And someone actually made a [conversion to Atari
+800XL](http://abbuc.de/~bunsen/OcDetox.html). How crazy is that?
 
 It'has been a long time since the game was released. Since we have learned a lot
 about coding, graphics and design (e.g. that we should not put dark blue text on
