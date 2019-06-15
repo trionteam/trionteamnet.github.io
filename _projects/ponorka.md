@@ -64,5 +64,5 @@ some fan e-mails from players!
 It'has been a long time since the game was released. Since we have learned a lot
 about coding, graphics and design (e.g. that we should not put dark blue text on
 black background), but _Ponorka_ stil has a special place in our hearts. If you
-would like to be part of the nostalgia, you can [download the game on
+would like to be part of the nostalgia, you can [download the game from
 Itch.io](https://trionteam.itch.io/ponorka) - it still runs on Windows 10.
