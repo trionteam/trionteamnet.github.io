@@ -92,6 +92,7 @@ body {
 
 .images a {
   margin: 5px;
+  text-decoration: none;
 }
 
 .sidebar {
