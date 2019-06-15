@@ -2,6 +2,10 @@
 title: About us
 layout: page
 ---
+We are a game development team based in Czech Republic. We're making our games
+for fun and only in our free time. And while our day jobs are design and
+coding, we do not consider ourselves professional game developers.
+
 ### Team members
 
 * __Ondra Sýkora (OndraSej)__: code, complaints on graphics.
