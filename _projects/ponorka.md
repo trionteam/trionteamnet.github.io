@@ -20,15 +20,12 @@ immoral and inhumane. So we moved the game below the water surface and replaced
 the city with stacks of barrels full of toxic waste.
 
 <div class="images">
-  <a href="{{ "/image/ponorka/screen-1.jpg" | relative_url }}">
-    <img src="{{ "/image/ponorka/screen-1-small.png" | relative_url }}">
-  </a>
-  <a href="{{ "/image/ponorka/screen-2.jpg" | relative_url }}">
-    <img src="{{ "/image/ponorka/screen-2-small.png" | relative_url }}">
-  </a>
-  <a href="{{ "/image/ponorka/screen-3.jpg" | relative_url }}">
-    <img src="{{ "/image/ponorka/screen-3-small.png" | relative_url }}">
-  </a>
+  {% include image.html thumb="/image/ponorka/screen-1-small.png"
+                        url="/image/ponorka/screen-1.jpg" %}
+  {% include image.html thumb="/image/ponorka/screen-2-small.png"
+                        url="/image/ponorka/screen-2.jpg" %}
+  {% include image.html thumb="/image/ponorka/screen-3-small.png"
+                        url="/image/ponorka/screen-3.jpg" %}
 </div>
 
 ### History

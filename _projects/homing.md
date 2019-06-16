@@ -15,12 +15,10 @@ several types of obstacles and it supports local multiplayer for people who
 prefer to avoid homing missiles with their friends.
 
 <div class="images">
-  <a href="{{ "/image/homing/screen-1.png" | relative_url }}">
-    <img src="{{ "/image/homing/screen-1-small.png" | relative_url }}">
-  </a>
-  <a href="{{ "/image/homing/screen-2.png" | relative_url }}">
-    <img src="{{ "/image/homing/screen-2-small.png" | relative_url }}">
-  </a>
+  {% include image.html thumb="/image/homing/screen-1-small.png"
+                        url="/image/homing/screen-1.png" %}
+  {% include image.html thumb="/image/homing/screen-2-small.png"
+                        url="/image/homing/screen-2.png" %}
 </div>
 
 We came up with the idea and developed the first version at [Global Game Jam
@@ -39,12 +37,10 @@ feels mostly complete - we could add more of everything, but none of these
 would be fundamental changes to the gameplay.
  
 <div class="images">
-  <a href="{{ "/image/homing/screen-3.png" | relative_url }}">
-    <img src="{{ "/image/homing/screen-3-small.png" | relative_url }}">
-  </a>
-  <a href="{{ "/image/homing/screen-4.png" | relative_url }}">
-    <img src="{{ "/image/homing/screen-4-small.png" | relative_url }}">
-  </a>
+  {% include image.html thumb="/image/homing/screen-3-small.png"
+                        url="/image/homing/screen-3.png" %}
+  {% include image.html thumb="/image/homing/screen-4-small.png"
+                        url="/image/homing/screen-4.png" %}
 </div>
 
 We released homing more than fifteen years after our last game, but we had just
