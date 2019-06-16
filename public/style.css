@@ -212,3 +212,7 @@ body {
 	max-width: 100%;
 	max-height: 100%;
 }
+
+.itchio-button img {
+  height: 40px;
+}
