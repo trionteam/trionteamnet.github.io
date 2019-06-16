@@ -6,8 +6,8 @@ short: Avoid homing missiles... on your way home. An infinite runner created
 image: /image/homing/homing-icon.png
 layout: page
 ---
-[Download or play on Itch.io](https://trionteam.itch.io/homing)
-[]()
+
+{% include itchio.html project-name="homing" %}
 
 Homing is an infinite runner where you need to take cover and avoid homing
 missiles using your self-balancing personal transportation device. The game has
@@ -28,8 +28,8 @@ We came up with the idea and developed the first version at [Global Game Jam
 _Home_. We found some interesting definitions of what home means on the
 internet, but we couldn't find good mechanics that would go with them (that we
 could implement over one weekend). Out final interpretation of the theme was
-quite broad, on the other hand, at the end of the game jam, we had a playable
-demo that was actually quite fun.
+quite broad, on the other hand, at the end of the game jam, we had a demo that
+was fun to play.
 
 The global game jam version had the basic game mechanics, but we felt that we
 could push the game further. We continued working on the game even after the
@@ -52,3 +52,5 @@ as much fun making it. Or maybe even more - all the experience we got through
 the years paid off and turned into a lot smoother process. We're looking
 forward to making more such games in the future - and we hope it won't take
 another 15 years.
+
+[Get sources from BitBucket](https://bitbucket.org/ondrasej/homing)
