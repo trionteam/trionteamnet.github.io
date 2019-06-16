@@ -6,4 +6,13 @@
   <script type="text/javascript" src="{{ "/public/script.js" | relative_url }}"></script>
 
   <title>Trion Team{% if page.url != "/" %} - {{ page.title }}{% endif %}</title>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-141183740-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-141183740-1');
+  </script>
 </head>
