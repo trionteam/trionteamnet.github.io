@@ -49,4 +49,4 @@ the years paid off and turned into a lot smoother process. We're looking
 forward to making more such games in the future - and we hope it won't take
 another 15 years.
 
-[Get sources from BitBucket](https://bitbucket.org/ondrasej/homing)
+[Get sources from GitHub](https://github.com/trionteam/Homing/)
