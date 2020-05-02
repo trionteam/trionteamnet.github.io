@@ -1,6 +1,6 @@
 ---
 name: Ponorka
-sequence: 3
+sequence: 4
 short: Ponorka is an arcade game where you control a submarine-bomber
        striving to clean up the ocean floor.
 layout: page

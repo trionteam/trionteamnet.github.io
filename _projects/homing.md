@@ -1,6 +1,6 @@
 ---
 name: Homing
-sequence: 2
+sequence: 3
 short: Avoid homing missiles... on your way home. An infinite runner created
        during Global Game Jam 2019.
 image: /image/homing/homing-icon.png
@@ -43,7 +43,7 @@ would be fundamental changes to the gameplay.
                         url="/image/homing/screen-4.png" %}
 </div>
 
-We released homing more than fifteen years after our last game, but we had just
+We released Homing more than fifteen years after our last game, but we had just
 as much fun making it. Or maybe even more - all the experience we got through
 the years paid off and turned into a lot smoother process. We're looking
 forward to making more such games in the future - and we hope it won't take
